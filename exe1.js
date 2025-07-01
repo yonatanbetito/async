@@ -7,6 +7,6 @@ fs.readFile("./txtFile.txt","utf-8", (err,data)=>{
     console.log(data);
     console.log(data.length);
     console.log(mytime);
-    console.log(new Date().toISOString());
+    console.log(new Date().toTimeString());
 
 })
